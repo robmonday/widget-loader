@@ -1,0 +1,15 @@
+/* Scott moss recommends to have accurate component sizes */
+* {
+  box-sizing: border-box;
+}
+
+/* TailwindCSS Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [data-nextjs-scroll-focus-boundary] {
+    display: contents;
+  }
+}
